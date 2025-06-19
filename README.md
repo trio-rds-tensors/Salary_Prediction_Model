@@ -47,10 +47,11 @@ This repository contains a Machine Learning model that predicts Salary based on 
 1. Clone this repository:
    ```bash
    git clone https://github.com/trio-rds-tensors/Salary_Prediction_Model.git
+   ```
 2. Create and use model
    ```bash
    from Salary_Prediction_Model.py import Salary
-  ```bash
+```bash
    model = Salary()
    model.predict([Edu,Job,Exp])
 ```
