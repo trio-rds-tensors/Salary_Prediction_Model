@@ -64,7 +64,7 @@ This repository contains a Machine Learning model that predicts Salary based on 
   model.predict(["PhD","Senior Scientist",11])
 ```
 ## 📊 Performance
-**Accuracy Metric:** R² Score = 0.9388153783546871
+**Accuracy Metric:** R² Score = 0.8574516839044533
 
 The model has been evaluated on test data and performs well on predicting continuous score values.
 
