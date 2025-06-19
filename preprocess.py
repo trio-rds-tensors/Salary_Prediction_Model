@@ -1,3 +1,6 @@
+from sklearn.base import BaseEstimator,TransformerMixin
+import pandas as pd 
+from sklearn.preprocessing import OrdinalEncoder,OneHotEncoder
 class preprocessor (BaseEstimator,TransformerMixin):
     def __init__(self):
         self.ord=OrdinalEncoder(categories=[["bachelor's", "master's", 'phd']])
