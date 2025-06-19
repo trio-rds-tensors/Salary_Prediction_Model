@@ -10,7 +10,7 @@ This repository contains a Machine Learning model that predicts Salary based on 
 ## 📁 Project Contents
 
 - `README.md` – Overview and instructions.
-- `Salary_Prediction_Model.pkl` – Trained ML model saved using `pickle`.(Need to preprocess input data)
+- `salary_prediction_model.pkl` – Trained ML model saved using `pickle`.(Need to preprocess input data)
 - `Salary.csv` – Dataset.
 - `Salary_Prediction_Model.ipynb` - Source Code.
 - `Salary_Prediction_Model.py` – For Easily Reuse Model(No need Preprocess input data).
