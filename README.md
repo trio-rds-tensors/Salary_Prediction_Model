@@ -15,7 +15,7 @@ This repository contains a Machine Learning model that predicts Salary based on 
 - `Salary_Prediction_Model.ipynb` - Source Code.
 - `Salary_Prediction_Model.py` – For Easily Reuse Model.
 - `preprocess.py`- Preprocess data before use model
-- `Salary_Prediction_Model.pdf` – Complete Report papaer of Model.
+- `Salary_Prediction_Model_YSPM_Dipali-Sudipta-Riyajul.pdf` – Complete Report papaer of Model.
 
 ## 🧠 Model Information
 
