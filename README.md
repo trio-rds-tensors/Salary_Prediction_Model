@@ -1,4 +1,4 @@
-💸 Salary Prediction Model
+# 💸 Salary Prediction Model
 
 This repository contains a Machine Learning model that predicts Salary based on input features such as Education Level , Job Tittle and Year of Experience. The model has been trained and saved in `.py` and `pkl`format for reuse and deployment.
 
