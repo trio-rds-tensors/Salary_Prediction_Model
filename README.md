@@ -38,11 +38,12 @@ This repository contains a Machine Learning model that predicts Salary based on 
    ```bash
    from preprocess import preprocessor
    import pickle
+   import pandas as pd
    # Load model
    with open('salary_prediction_model.pkl','rb') as file:
       model = pickle.load(file)
    #Predict (example)
-   predicted_salary=model.predict([[Edu,Job,Exp]])
+   predicted_salary=model.predict(pd.DataFrame([[Edu,Job,Exp]],columns=["Education Level","Job Title","Years of Experience"])
    print(predicted_salary)
 ### 🕵️ Method 2
 1. Clone this repository:
