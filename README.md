@@ -36,6 +36,7 @@ This repository contains a Machine Learning model that predicts Salary based on 
    pip install numpy pandas scikit-learn
 3. Load and use the model:
    ```bash
+   from preprocess import preprocessor
    import pickle
    # Load model
    with open('salary_prediction_model.pkl','rb') as file:
