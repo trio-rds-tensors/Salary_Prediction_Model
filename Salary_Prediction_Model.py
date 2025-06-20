@@ -47,5 +47,7 @@ class Salary:
     def predict(self,x_test):
         if isinstance(x_test,list):
             x_test=pd.DataFrame([x_test],columns=["Education Level","Job Title","Years of Experience"])
+            x_test["Job Title"]=x_test["Job Title"].str.lower()
+            x_test["Education Level"]=x_test["Education Level"].str.lower()
         x_test = test_data_preprocessing(x_test,self.ord,self.ohe)
         return self.model.predict(x_test)
